@@ -2,8 +2,7 @@
 #include <math.h>
 #include "cos.h"
 void cos()
-
-int main()
+  
 {
   double  n,val,cosvalue;
 
@@ -15,7 +14,6 @@ int main()
   cosvalue = cos( n*val );
   
   printf("\n The Sine value of %lf = %f ", n, cosvalue);
-  
-  return 0;
+ 
 }
 
