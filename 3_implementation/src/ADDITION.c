@@ -1,19 +1,17 @@
 #include <stdio.h>
+#include "addition.h"
 
-int main()
+void addition()
 {
-  int i;
-  float j=0;
-  printf("no.of numbers to add");
-  int n;
-  scanf("%d",&n);
-  
- float a[n];
-  for(i=0;i<n;i++)
-  {
-     scanf("%f",&a[i]);
-      j=j+a[i];
-  }
-  printf("%.2f",j);
-  return 0;
+    int n, total=0, k=0, number;
+    printf("\nEnter the number of elements you want to add:");
+    scanf("%d",&n);
+    printf("Please enter %d numbers one by one: \n",n);
+    while(k<n)
+    { 
+        scanf("%d",&number);
+        total=total+number;
+        k=k+1;
+    }
+    printf("Sum of %d numbers = %d \n",n,total);
 }
