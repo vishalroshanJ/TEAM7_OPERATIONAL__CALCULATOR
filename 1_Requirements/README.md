@@ -1,5 +1,5 @@
-                                                                    
-                                                                    RESEARCH
+                                                                         
+                                                                         RESEARCH
 
 -- Ageing
 
@@ -13,7 +13,7 @@ Scientific calculator: It can perform basic operations as well as complex scient
 Digital calculator: It can perform all operations same as scientific calculator. The inputs (values and operations) can be given through keys or mouse click or touch (in case of cell phone). There are features like history, checking, etc. Generally, there is no cost to use it.
 
                                                                  
-                                                                  SOFTWARE REQUIREMENTS:
+                                                                 SOFTWARE REQUIREMENTS:
 
 MY SOFTWARE:
 
@@ -28,7 +28,8 @@ MY SOFTWARE:
 5.Sonar lint
 
 
-                                                                     HIGH LEVEL REQUIREMENT:
+                                                                    
+                                                                    HIGH LEVEL REQUIREMENT:
 
 1)It has to perform operations such as:
 
@@ -51,7 +52,7 @@ It must contain operational keys such as +, -, *, % etc.
 
 
 
-                                                                          LOW LEVEL REQUIREMENT:
+                                                                     LOW LEVEL REQUIREMENT:
 
 Should contain minimum capacity to perform operations.
 
@@ -69,7 +70,6 @@ Should contain minimum capacity to perform operations.
 
 7)It must accept decimal values and have to return the smaller number that is >= to the number given eg:1.6=2.
 
-                                                                                     
-                                                                               SWOT ANALYSIS:
+                              SWOT ANALYSIS:
 
 ![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/1_Requirements/SWOT.PNG)
