@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "log Function"
-int logfuntion()
+#include "log_Function"
+void logfuntion()
 {
    
     double num, result;
@@ -9,5 +9,5 @@ int logfuntion()
     result = log(num);
     printf("log(%.1f) = %.2f", num, result);
 
-    return 0;
+    
 }
