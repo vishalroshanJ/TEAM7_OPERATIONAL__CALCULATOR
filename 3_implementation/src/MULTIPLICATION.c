@@ -9,7 +9,7 @@ void multiplication()
   printf("enter the number of elements to mul: ");
   int n;
   scanf("%d",&n);
-  printf("enter the numbers one by one: \n",n);
+  printf("please enter the numbers one by one: \n",n);
   float a[n];
   for(i=0;i<n;i++)
   {
