@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <math.h>
-#include "sine.h"
+#include "sin.h"
 
-void sine()
+void sin()
 {
   double sinValue, n;
   printf("Enter the Value to calculate Sine :  ");
