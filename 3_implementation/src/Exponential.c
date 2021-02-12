@@ -1,13 +1,10 @@
 #include <stdio.h>
-#include<math.h>
-#include "Exponential"
-void Exponential()
+#include "exponential"
+void exp()
 {
-   
-    double num, result;
-    printf("e^x-->Enter x value");
-    scanf("%lf",&num);
-    result =pow(2.718281828,num);
-    printf("e^%lf = %f",num, result);
-
+float n,result;
+printf("Enter the number:");
+scanf("%f",&n);
+result=exp(n);
+printf("exponential of %f = %f \n",n,result);
 }
