@@ -1,13 +1,9 @@
 
 #include <stdio.h>
- 
 #include <math.h>
 #include "tan.h"
 
 void tan()
- 
-int main()
- 
 {
        
        float n;
@@ -17,5 +13,4 @@ int main()
       
        printf("%f",tan_value);
        
-       return 0;
 }
