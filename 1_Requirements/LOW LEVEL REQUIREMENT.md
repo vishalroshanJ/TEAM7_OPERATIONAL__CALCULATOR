@@ -1,4 +1,4 @@
-LOW LEVEL REQUIREMENT:
+Low Level Requirements:
 
 1)	Should contain minimum capacity to perform operations.
 
