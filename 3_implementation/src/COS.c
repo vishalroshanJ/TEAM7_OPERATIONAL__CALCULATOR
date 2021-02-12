@@ -13,7 +13,7 @@ void cos()
   val = 3.14 / 180.0;
   cosvalue = cos( n*val );
   
-  printf("\n The Sine value of %lf = %f ", n, cosvalue);
+  printf("\n The cos value of %lf = %f ", n, cosvalue);
  
 }
 
