@@ -31,12 +31,17 @@
 void addition();
 void division();
 void exponential();
-void factorial();
+
 void modulus();
 void multiplication();
 void percentage();
 void subtraction();
 void prime();
+
+void ceilval();
+void expval();
+void factorial();
+void floorval();
 
 void calc_inst()
 {
@@ -78,6 +83,10 @@ int main(void)
 		case 'A': 
 		case 'a': addition();
 				break;
+		case 'c':
+		case 'C':
+			 ceilval();
+		        	break;
 		case 'S': 
 		case 's': subtraction();
 				break;
@@ -93,10 +102,10 @@ int main(void)
 		case 'l': modulus();
 				break;
 		case 'F': 
-		case 'f': factorial();
+		case 'f': factorial()
 				break;
 		case 'E': 
-		case 'e': exponential();
+		case 'e': expval();
 				break;
 		case 'P': 
 		case 'p': prime();
