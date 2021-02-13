@@ -1,4 +1,4 @@
-#ifndef CEILVAL_H
-#define CEILVAL_H
+#ifndef ceilval_h
+#define ceilval_h
 void ceilval();
 #endif
