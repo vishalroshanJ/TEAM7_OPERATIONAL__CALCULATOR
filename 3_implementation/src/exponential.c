@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "exponential"
-void exp()
+#include "exponential.h"
+void expval()
 {
 float n,result;
 printf("Enter the number:");
