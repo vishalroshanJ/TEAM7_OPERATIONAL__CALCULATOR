@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "ceil"
-void ceil()
+#include "ceilval.h"
+void ceilval()
 {
 float n,result;
 printf("Enter the number:");
