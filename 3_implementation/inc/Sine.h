@@ -1,6 +1,6 @@
-#ifndef sine_H
-#define sine_H
+#ifndef sin_h
+#define sin_h
 
-void sine();
+void sin();
 
 #endif
