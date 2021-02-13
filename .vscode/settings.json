@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "ceilval.h": "c",
+        "squareroot.h": "c",
+        "subtraction.h": "c",
+        "tan.h": "c"
+    }
+}
