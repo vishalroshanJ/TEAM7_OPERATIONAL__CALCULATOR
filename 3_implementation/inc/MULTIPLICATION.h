@@ -1,6 +1,6 @@
-#ifndef multiplication_H
-#define multiplication_H
+#ifndef multiplication_h
+#define multiplication_h
 
-void do_multiplication();
+void multiplication();
 
 #endif
