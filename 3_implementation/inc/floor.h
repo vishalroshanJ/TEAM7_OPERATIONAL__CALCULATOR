@@ -1,4 +1,4 @@
-#ifndef FLOORVAL_H
-#define FLOORVAL_H
+#ifndef floorval_h
+#define floorval_h
 void floorval();
 #endif
