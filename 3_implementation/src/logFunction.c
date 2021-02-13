@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
-#include "logFuntion.h"
-void logFuntion()
+#include "logFunction.h"
+void logFunction()
 {
    
     double num, result;

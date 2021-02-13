@@ -5,11 +5,11 @@
 #include "addition.h"
 #include "cos.h"
 #include "division.h"
-#include "log_Funtion.h"
+#include "logFunction.h"
 #include "multiplication.h"
 #include "sin.h"
 #include "subtraction.h"
-#include "square_Root"
+#include "sqrtin.h"
 #include "tan.h"
 #include "xy.h"
 #include "ceilval.h"
@@ -20,10 +20,10 @@
 void addition();
 void cos();
 void division();
-void log_Funtion();
+void logFunction();
 void multiplication();
 void sin();
-void square_Root();
+void sqrtin();
 void tan();
 void xy();
 void ceilval();
@@ -56,12 +56,12 @@ int main(void)
 	int Calc_input;
 	char respo;
 	cal();
-	scanf("%d", &Calc_input;);
-	switch(Calc_input;)
+	scanf("%d",&Calc_input);
+	switch(Calc_input)
 	{
 		case '1':addition();
 				break;
-	        case '2': subtraction();
+	    case '2': subtraction();
 				break;	
 		case '3': division();
 				break;	
@@ -75,14 +75,14 @@ int main(void)
 			       break;	
 		case '8': ceilval();
 		        	break;
-		case '9': log_Funtion();
+		case '9': logFunction();
 			       break;
-		case '10': Square_Root();
+		case '10': sqrtin();
 			       break;	
 		case '11': floorval();
 			        break;	
-		case '12': factorial()
-				break;
+		case '12': factorial();
+				 break;
 		case '13': xy();
 				break;	
 		case '14': exit(0);
@@ -92,7 +92,7 @@ int main(void)
     		printf("***********\n");
     		printf("\n*****Please Enter any one of below available ");
     		printf("options****\n");
-		cal();
+		    cal();
 
 	}
 
