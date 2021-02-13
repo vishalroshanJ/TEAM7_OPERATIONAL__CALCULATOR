@@ -38,6 +38,8 @@ void percentage();
 void subtraction();
 void prime();
 
+void sin();
+void Square_Root();
 void tan();
 void Ten_power_X();
 void X_p();
@@ -133,9 +135,17 @@ int main(void)
 		case 'tp':
 		       Ten_power_X();
 			break;
+		case 'SIN':
+		case 'sin':
+			sin();
+			break;
 		case 'TAN':
 		case 'tan':
 			tan();
+			break;
+		case 'SP':
+		case 'sp':
+			Square_Root();
 			break;
 		default : 
 			printf("\n**********You have entered unavailable option");
