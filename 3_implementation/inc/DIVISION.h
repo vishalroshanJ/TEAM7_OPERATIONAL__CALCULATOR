@@ -1,6 +1,6 @@
-#ifndef division_H
-#define division_H
+#ifndef division_h
+#define division_h
 
-void do_division();
+void division();
 
 #endif
