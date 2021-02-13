@@ -1,4 +1,4 @@
-#ifndef FACTORIAL_H
-#define FACTORIAL_H
-void do_factorial();
+#ifndef factorial_h
+#define factorial_h
+void factorial();
 #endif 
