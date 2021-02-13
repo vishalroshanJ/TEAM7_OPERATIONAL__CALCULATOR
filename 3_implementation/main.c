@@ -1,15 +1,32 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <math.h>
 
 #include "addition.h"
-#include "subtraction.h"
-#include "multiplication.h"
+#include "cos.h"
 #include "division.h"
-#include "percentage.h"
-#include "modulus.h"
-#include "factorial.h"
 #include "exponential.h"
-#include "prime.h"
+#include "Log_Funtion.h"
+#include "modulus.h"
+#include "multiplication.h"
+#include "Reciprocal_of_value.h"
+#include "sin.h"
+#include "subtraction.h"
+#include "Square_Root"
+#include "tan.h"
+#include "Ten_power_X.h"
+#include "X_p.h"
+#include "X_Y.h"
+#include "absolutevalue.h"
+#include "ceilval.h"
+#include "exponential.h"
+#include "factorial.h"
+#include "floorval.h"
+
+
+
+
+
 
 void addition();
 void division();
@@ -87,8 +104,13 @@ int main(void)
 		case 'Q': 
 		case 'q': exit(0);
 				break;
-		case 'H': case 'h': calc_opr();
-							break;
+		case 'H':
+		case 'h': calc_opr();
+			        break;
+		case 'FL':
+		case 'fl':
+			 floorval();
+			        break;
 		default : 
 			printf("\n**********You have entered unavailable option");
     		printf("***********\n");
