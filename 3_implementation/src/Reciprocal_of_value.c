@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "Reciprocal_of_value"
+#include "Reciprocal_of_value.h"
 void Reciprocal_of_value()
 {
    
