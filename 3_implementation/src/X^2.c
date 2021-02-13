@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "X^2"
+#include "X^2.h"
 void X^2()
 {
    
