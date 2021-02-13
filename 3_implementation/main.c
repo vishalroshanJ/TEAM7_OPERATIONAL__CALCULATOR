@@ -5,18 +5,14 @@
 #include "addition.h"
 #include "cos.h"
 #include "division.h"
-#include "exponential.h"
 #include "Log_Funtion.h"
 #include "multiplication.h"
 #include "sin.h"
 #include "subtraction.h"
 #include "Square_Root"
 #include "tan.h"
-#include "Ten_power_X.h"
 #include "X_p.h"
-#include "absolutevalue.h"
 #include "ceilval.h"
-#include "exponential.h"
 #include "floorval.h"
 
 
