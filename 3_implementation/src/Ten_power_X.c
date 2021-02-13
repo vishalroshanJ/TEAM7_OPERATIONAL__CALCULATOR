@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "Ten_power_X"
+#include "Ten_power_X.h"
 int Ten_power_X()
 {
    
