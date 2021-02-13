@@ -5,156 +5,94 @@
 #include "addition.h"
 #include "cos.h"
 #include "division.h"
-#include "Log_Funtion.h"
+#include "log_Funtion.h"
 #include "multiplication.h"
 #include "sin.h"
 #include "subtraction.h"
-#include "Square_Root"
+#include "square_Root"
 #include "tan.h"
-#include "X_p.h"
+#include "xy.h"
 #include "ceilval.h"
 #include "floorval.h"
+#include "factorial.h"
 
 
 void addition();
 void cos();
 void division();
-void Log_Funtion();
-void modulus();
+void log_Funtion();
 void multiplication();
-void Reciprocal_of_value();
 void sin();
-void Square_Root();
+void square_Root();
 void tan();
-void Ten_power_X();
-void X_p();
-void X_Y();
-void absval();
+void xy();
 void ceilval();
-void expval();
 void factorial();
 void floorval();
-
-void calc_inst()
-{
-	
-	printf("******* Press 'Q' or 'q' to quit ");
-	printf("the program ********\n");
-	printf("***** Press 'H' or 'h' to display ");
-	printf("below options *****\n\n");
-	printf("Enter 'C' or 'c' to clear the screen and");
-	printf(" display available option \n\n");
-}
 
 void cal()
 {
 	printf("\n             Welcome to C calculator \n\n");
 	calc_inst();
-	printf("Enter A or a for Addition \n");
-	printf("Enter S or s for Subtraction \n");
-	printf("Enter M or m for Multiplication \n");
-	printf("Enter D or d for Division \n");
-	printf("Enter L or l for Modulus \n");
-	printf("Enter F or f for Factorial \n");
-	printf("Enter E or e for Exponential \n");
-	printf("Enter C or c for Ceil\n");
-	printf("Enter MO or mo for Modulus\n");
-	printf("Enter LOG or log for LOG \n");
-	printf("Enter RP or rp for Recipotal\n");
-	printf("Enter FL or fl for Floor \n");
-	printf("Enter AB or ab for Abs value\n");
-	printf("Enter TP or tp for Ten power\n");
-	printf("Enter SIN or sin for Sin \n");
-	printf("Enter cos or COS for Cos\n");
-	printf("Enter TAN or tan for Tan \n");
-	printf("Enter SP or sp for square root\n");
-}
+	printf("Enter 1 for Addition \n");
+	printf("Enter 2 for Subtraction \n");
+	printf("Enter 3 for Divison\n");
+	printf("Enter 4 for Multiplication \n");
+	printf("Enter 5 for Tan \n");
+	printf("Enter 6 for Sin \n");
+	printf("Enter 7 for Cos \n");
+	printf("Enter 8 for Ceil\n");
+	printf("Enter 9 for Log\n");
+	printf("Enter 10 for Squareroot \n");
+	printf("Enter 11 for Floor\n");
+	printf("Enter 12 for Flactorial\n");
+	printf("Enter 13 for power\n");
+	printf("Enter 14 for Exit\n");
 }
 
 int main(void)
 {
 	int X = 1;
-	char Calc_input;
+	int Calc_input;
 	char respo;
-
 	cal();
-	scanf("%c", &Calc_input;);
+	scanf("%d", &Calc_input;);
 	switch(Calc_input;)
 	{
-		case 'A': 
-		case 'a':  addition();
+		case '1':addition();
 				break;
-		case 'c':
-		case 'C':
-			 ceilval();
+	        case '2': subtraction();
+				break;	
+		case '3': division();
+				break;	
+		case '4': multiplication();
+				break;	
+		case '5': tan();
+			        break;
+		case '6': sin();
+			        break;
+		case '7': cos();
+			       break;	
+		case '8': ceilval();
 		        	break;
-		case 'S': 
-		case 's': subtraction();
+		case '9': log_Funtion();
+			       break;
+		case '10': Square_Root();
+			       break;	
+		case '11': floorval();
+			        break;	
+		case '12': factorial()
 				break;
-		case 'M': 
-		case 'm': multiplication();
-				break;
-		case 'MO':
-		case 'mo':
-			 modulus();
-			break;
-		case 'LOG':
-		case 'log':
-			Log_Funtion();
-			break;
-		case 'D': 
-		case 'd': division()
-				break;
-		case 'F': 
-		case 'f': factorial()
-				break;
-		case 'E': 
-		case 'e': expval();
-				break;
-		case 'Q': 
-		case 'q': exit(0);
-				break;
-		case 'H':
-		case 'h': calc_opr();
-			        break;
-		case 'RP';
-		case 'rp':
-			 Reciprocal_of_value();
-			break;
-		case 'FL':
-		case 'fl':
-			 floorval();
-			        break;
-		case 'AB':
-		case 'ab':
-			 absval();
-			        break;
-		case 'TP':
-		case 'tp':
-		       Ten_power_X();
-			break;
-		case 'SIN':
-		case 'sin':
-			sin();
-			break;
-		case 'TAN':
-		case 'tan':
-			tan();
-			break;
-		case 'COS':
-		case 'cos':
-			cos();
-			break;
-		case 'SP':
-		case 'sp':
-			Square_Root();
-			break;
+		case '13': xy();
+				break;	
+		case '14': exit(0);
+				break;	
 		default : 
-			printf("\n**********You have entered unavailable option");
+		printf("\n**********You have entered unavailable option");
     		printf("***********\n");
     		printf("\n*****Please Enter any one of below available ");
     		printf("options****\n");
-			calc_opr();
+		cal();
 
 	}
 
