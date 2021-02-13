@@ -7,7 +7,7 @@
 #include "division.h"
 #include "logFunction.h"
 #include "multiplication.h"
-#include "sin.h"
+#include "sinin.h"
 #include "subtraction.h"
 #include "sqrtin.h"
 #include "tan.h"
@@ -22,7 +22,7 @@ void cos();
 void division();
 void logFunction();
 void multiplication();
-void sin();
+void sinin();
 void sqrtin();
 void tan();
 void xy();
@@ -66,7 +66,7 @@ int main(void)
 				break;	
 		case '5': tan();
 			        break;
-		case '6': sin();
+		case '6': sinin();
 			        break;
 		case '7': cos();
 			       break;	
