@@ -33,7 +33,6 @@ void floorval();
 void cal()
 {
 	printf("\n             Welcome to C calculator \n\n");
-	calc_inst();
 	printf("Enter 1 for Addition \n");
 	printf("Enter 2 for Subtraction \n");
 	printf("Enter 3 for Divison\n");
@@ -52,9 +51,7 @@ void cal()
 
 int main(void)
 {
-	int X = 1;
 	int Calc_input;
-	char respo;
 	cal();
 	scanf("%d",&Calc_input);
 	switch(Calc_input)
@@ -88,7 +85,7 @@ int main(void)
 		case '14': exit(0);
 				break;	
 		default : 
-		printf("\n**********You have entered unavailable option");
+		    printf("\n**********You have entered unavailable option");
     		printf("***********\n");
     		printf("\n*****Please Enter any one of below available ");
     		printf("options****\n");
