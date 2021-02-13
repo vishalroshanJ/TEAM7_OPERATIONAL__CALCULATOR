@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "absolute_value"
-void abs()
+#include "absolutevalue.h"
+void absval()
 {
 float n,result;
 printf("Enter the number:");
