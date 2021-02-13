@@ -1,5 +1,5 @@
-#ifndef cos_H
-#define cos_H
+#ifndef cos_h
+#define cos_h
 
 void cos();
 
