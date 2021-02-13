@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
-#include "Square_Root"
-void Square_Root()
+#include "squareroot.h"
+void squareroot()
 {
    
     double num, result;
