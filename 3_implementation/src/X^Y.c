@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
-#include "X_Y.h"
-void X_Y()
+#include "xy.h"
+void xy()
 {
    
     double num1,num2, result;
