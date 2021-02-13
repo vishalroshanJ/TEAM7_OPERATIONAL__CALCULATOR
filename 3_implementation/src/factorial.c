@@ -1,11 +1,13 @@
 #include <stdio.h>
-#include "factorial.h"
+#include "factorial"
 void factorial()
 {
+    int n,result;
 printf("Enter the number:");
 scanf("%d",&n);
     if (n>=1)
     {
+        result=n*factorial(n-1);
        printf("factorial of %f = %f \n",n,result);
         }
     else if(n<0)
