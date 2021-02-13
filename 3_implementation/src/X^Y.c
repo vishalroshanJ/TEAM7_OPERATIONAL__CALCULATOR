@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "X^Y"
+#include "X_Y.h"
 void X^Y()
 {
    
