@@ -38,6 +38,11 @@ void percentage();
 void subtraction();
 void prime();
 
+void tan();
+void Ten_power_X();
+void X_p();
+void X_Y();
+void absval();
 void ceilval();
 void expval();
 void factorial();
@@ -120,6 +125,18 @@ int main(void)
 		case 'fl':
 			 floorval();
 			        break;
+		case 'AB':
+		case 'ab':
+			 absval();
+			        break;
+		case 'TP':
+		case 'tp':
+		       Ten_power_X();
+			break;
+		case 'TAN':
+		case 'tan':
+			tan();
+			break;
 		default : 
 			printf("\n**********You have entered unavailable option");
     		printf("***********\n");
