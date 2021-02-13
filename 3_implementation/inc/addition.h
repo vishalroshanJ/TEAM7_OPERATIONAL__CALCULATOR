@@ -1,6 +1,6 @@
-#ifndef ADDITION_H
-#define ADDITION_H
+#ifndef addition_h
+#define addition_h
 
-void do_addition();
+void addition();
 
 #endif
