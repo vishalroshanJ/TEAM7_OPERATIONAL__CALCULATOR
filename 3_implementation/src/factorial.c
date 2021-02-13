@@ -2,12 +2,15 @@
 #include "factorial.h"
 void factorial()
 {
-    int n,result;
+    int i,n,result=1;
 printf("Enter the number:");
 scanf("%d",&n);
     if (n>=1)
     {
-        result=n*factorial(n-1);
+        for(i=1;i<=n;i++)
+        {
+    result=result*i;
+        }
        printf("factorial of %f = %f \n",n,result);
         }
     else if(n<0)
