@@ -1,6 +1,6 @@
-#ifndef Square_Root
-#define Square_Root
+#ifndef squareroot
+#define squareroot
 
-void do_Square_Root();
+void squareroot();
 
 #endif
