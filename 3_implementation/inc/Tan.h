@@ -1,5 +1,5 @@
-#ifndef tan_H
-#define tan_H
+#ifndef tan_h
+#define tan_h
 
 void tan();
 
