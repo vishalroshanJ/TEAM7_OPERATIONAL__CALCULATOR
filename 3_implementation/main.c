@@ -54,7 +54,7 @@ void calc_inst()
 	printf(" display available option \n\n");
 }
 
-void calc_opr()
+void cal()
 {
 	printf("\n             Welcome to C calculator \n\n");
 	calc_inst();
@@ -82,12 +82,12 @@ void calc_opr()
 int main(void)
 {
 	int X = 1;
-	char Calc_opr_input;
+	char Calc_input;
 	char respo;
 
-	calc_opr();
-	scanf("%c", &Calc_opr_input);
-	switch(Calc_opr_input)
+	cal();
+	scanf("%c", &Calc_input;);
+	switch(Calc_input;)
 	{
 		case 'A': 
 		case 'a':  addition();
