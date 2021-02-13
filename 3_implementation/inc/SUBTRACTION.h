@@ -1,6 +1,6 @@
-#ifndef SUBTACTION_H
-#define SUBTACTION_H
+#ifndef subtraction_h
+#define subtraction_h
 
-void do_subtraction();
+void subtraction();
 
 #endif
