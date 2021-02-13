@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
 #include "Ten_power_X.h"
-int Ten_power_X()
+void Ten_power_X()
 {
    
     double num, result;
