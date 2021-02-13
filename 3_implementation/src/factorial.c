@@ -11,14 +11,14 @@ scanf("%d",&n);
         {
     result=result*i;
         }
-       printf("factorial of %f = %f \n",n,result);
+       printf("factorial of %d = %d \n",n,result);
         }
     else if(n<0)
     {
-        printf("factorial of %f = Not Valid \n",n);
+        printf("factorial of %d = Not Valid \n",n);
         }
         else
         {
-         printf("factorial of %f = 1 \n",n);
+         printf("factorial of %d = 1 \n",n);
         }
 }
