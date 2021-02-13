@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "division.h"
+void division()
 {
   int i;
   float j=1;
