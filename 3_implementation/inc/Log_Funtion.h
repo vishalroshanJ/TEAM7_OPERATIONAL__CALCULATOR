@@ -1,6 +1,6 @@
-#ifndef Log_Funtion
-#define Log_Funtion
+#ifndef logFuntion_h
+#define logFuntion_h
 
-void do_Log_Funtion();
+void logFuntion();
 
 #endif
