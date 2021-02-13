@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void addition()
 {
     int n, total=0, k=0, number;

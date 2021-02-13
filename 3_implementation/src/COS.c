@@ -5,9 +5,7 @@ void cos()
   
 {
   double  n,val,cosvalue;
-
   printf("Enter the Value to calculate cos :  ");
-  
   scanf("%lf", &n);
   
   val = 3.14 / 180.0;

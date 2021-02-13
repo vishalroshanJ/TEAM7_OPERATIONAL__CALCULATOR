@@ -2,6 +2,7 @@
 
 void division()
 {
+  
   int i;
   float j=1;
   printf("enter the number of elements to div: ");
