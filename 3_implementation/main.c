@@ -24,20 +24,13 @@
 #include "floorval.h"
 
 
-
-
-
-
 void addition();
+void cos();
 void division();
-void exponential();
-
+void Log_Funtion();
 void modulus();
 void multiplication();
-void percentage();
-void subtraction();
-void prime();
-
+void Reciprocal_of_value();
 void sin();
 void Square_Root();
 void tan();
@@ -65,16 +58,25 @@ void calc_opr()
 {
 	printf("\n             Welcome to C calculator \n\n");
 	calc_inst();
-
 	printf("Enter A or a for Addition \n");
 	printf("Enter S or s for Subtraction \n");
 	printf("Enter M or m for Multiplication \n");
 	printf("Enter D or d for Division \n");
-	printf("Enter P or p for Percentage \n");
 	printf("Enter L or l for Modulus \n");
 	printf("Enter F or f for Factorial \n");
 	printf("Enter E or e for Exponential \n");
-	printf("Enter P or p for Checking prime \n");
+	printf("Enter C or c for Ceil\n");
+	printf("Enter MO or mo for Modulus\n");
+	printf("Enter LOG or log for LOG \n");
+	printf("Enter RP or rp for Recipotal\n");
+	printf("Enter FL or fl for Floor \n");
+	printf("Enter AB or ab for Abs value\n");
+	printf("Enter TP or tp for Ten power\n");
+	printf("Enter SIN or sin for Sin \n");
+	printf("Enter cos or COS for Cos\n");
+	printf("Enter TAN or tan for Tan \n");
+	printf("Enter SP or sp for square root\n");
+}
 }
 
 int main(void)
@@ -88,7 +90,7 @@ int main(void)
 	switch(Calc_opr_input)
 	{
 		case 'A': 
-		case 'a': addition();
+		case 'a':  addition();
 				break;
 		case 'c':
 		case 'C':
@@ -100,13 +102,16 @@ int main(void)
 		case 'M': 
 		case 'm': multiplication();
 				break;
+		case 'MO':
+		case 'mo':
+			 modulus();
+			break;
+		case 'LOG':
+		case 'log':
+			Log_Funtion();
+			break;
 		case 'D': 
-		case 'd': division();
-				break;
-		case '%': percentage();
-				break;
-		case 'L':
-		case 'l': modulus();
+		case 'd': division()
 				break;
 		case 'F': 
 		case 'f': factorial()
@@ -114,15 +119,16 @@ int main(void)
 		case 'E': 
 		case 'e': expval();
 				break;
-		case 'P': 
-		case 'p': prime();
-				break;					
 		case 'Q': 
 		case 'q': exit(0);
 				break;
 		case 'H':
 		case 'h': calc_opr();
 			        break;
+		case 'RP';
+		case 'rp':
+			 Reciprocal_of_value();
+			break;
 		case 'FL':
 		case 'fl':
 			 floorval();
@@ -142,6 +148,10 @@ int main(void)
 		case 'TAN':
 		case 'tan':
 			tan();
+			break;
+		case 'COS':
+		case 'cos':
+			cos();
 			break;
 		case 'SP':
 		case 'sp':
