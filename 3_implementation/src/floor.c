@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "floor"
-void floor()
+#include "floorval.h"
+void floorval()
 {
 float n,result;
 printf("Enter the number:");
