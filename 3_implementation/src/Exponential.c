@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "exponential"
+#include "exponential.h"
 void exp()
 {
 float n,result;
