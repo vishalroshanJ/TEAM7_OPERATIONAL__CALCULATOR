@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "floorval.h"
+//#include "floorval.h"
 void floorval()
 {
 float n,result;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "logFunction.h"
+//#include "logFunction.h"
 void logFunction()
 {
    

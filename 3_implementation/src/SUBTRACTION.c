@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include "subtraction.h"
+//#include "subtraction.h"
 void subtraction()
 {
   int i;

@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "sqrtin.h"
+//#include "sqrtin.h"
 void  sqrtin()
 {
    

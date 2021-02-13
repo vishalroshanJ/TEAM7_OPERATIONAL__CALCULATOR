@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include<math.h>
-#include "xy.h"
+//#include "xy.h"
 void xy()
 {
    

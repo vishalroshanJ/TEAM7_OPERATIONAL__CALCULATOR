@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <math.h>
-#include "tan.h"
+//#include "tan.h"
 
 void tan()
 {

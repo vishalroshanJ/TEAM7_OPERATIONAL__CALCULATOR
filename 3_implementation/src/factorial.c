@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "factorial.h"
+//#include "factorial.h"
 void factorial()
 {
     int i,n,result=1;

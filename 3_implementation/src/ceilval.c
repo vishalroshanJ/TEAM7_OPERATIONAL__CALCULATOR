@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "ceilval.h"
 void ceilval()
 {
 float n,result;
