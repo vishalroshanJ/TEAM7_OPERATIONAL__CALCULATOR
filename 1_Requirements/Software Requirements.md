@@ -9,5 +9,3 @@ MY SOFTWARE:
 
 4.MingW
 
-5.Sonar lint
-
