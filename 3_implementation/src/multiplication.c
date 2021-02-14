@@ -8,13 +8,21 @@ void multiplication()
   float j=1;
   printf("enter the number of elements to mul: ");
   int n;
-  scanf("%d",&n);
+  while (scanf("%d",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+} 
   printf("please enter the numbers one by one: \n",n);
-  float a[n];
+  float a;
   for(i=0;i<n;i++)
   {
-     scanf("%f",&a[i]);
-      j=j*a[i];
+     while (scanf("%f",&a)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+} 
+      j=j*a;
   }
-  printf("product of numbers is: %.1f",j);
+  printf("product of numbers is: %.2f",j);
 }
