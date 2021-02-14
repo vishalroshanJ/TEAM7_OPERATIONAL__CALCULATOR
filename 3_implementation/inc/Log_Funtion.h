@@ -1,14 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 #include<math.h>
-
-void logFunction()
+#include "logFuntion.h"
+void logFuntion()
 {
-   
-    double num, result;
-    printf("log(x)-->Enter x value");
-    scanf("%lf",&num);
+ double num, result;
+    printf("log(x)-->Enter x value :");
+    while (scanf("%lf",&num)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
     result = log(num);
-    printf("log(%.1f) = do_addition()%.2f", num, result);
-
-    
+    printf("log(%.1f) =%.2f", num, result);   
 }
