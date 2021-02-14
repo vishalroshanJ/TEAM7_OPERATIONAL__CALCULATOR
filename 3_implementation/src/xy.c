@@ -3,14 +3,19 @@
 #include "xy.h"
 void xy()
 {
-   
-    double num1,num2, result;
-    printf("Enter Base value");
-    scanf("%lf",&num1);
-    printf("Enter power value");
-    scanf("%lf",&num2);
+   double num1,num2, result;
+    printf("Enter Base value:");
+    while (scanf("%lf",&num1)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+} 
+    printf("Enter power value:");
+    while (scanf("%lf",&num2)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+} 
     result = pow(num1, num2);
-    printf("%lf^%lf = %.2f",num1,num2, result);
-
-   
+    printf("%.2lf^%.2lf = %.2f",num1,num2, result);
 }
