@@ -3,16 +3,17 @@
 
 void addition()
 {
-    int n, total=0, k=0, number;
+    int i,n,j=0;
     printf("\nEnter the number of elements you want to add:");
     scanf("%d",&n);
     printf("Please enter %d numbers one by one: \n",n);
-    while(k<n)
-    { 
-        scanf("%d",&number);
-        total=total+number;
-        k=k+1;
-    }
+    int a[n];
+  for(i=0;i<n;i++)
+  {
+      scanf("%d",&a[i]);
+      j=j+a[i];
+  }
     printf("Sum of %d numbers = %d \n",n,total);
     
 }
+
