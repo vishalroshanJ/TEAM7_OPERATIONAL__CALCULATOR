@@ -14,4 +14,5 @@ void addition()
         k=k+1;
     }
     printf("Sum of %d numbers = %d \n",n,total);
+    
 }
