@@ -1,14 +1,20 @@
 #include <stdio.h>
 #include <math.h>
-#include "sin.h"
 
-void sin()
+int main()
 {
-  double sinValue, n;
-  printf("Enter the Value to calculate Sine :  ");
-  scanf("%lf", &n);
-  sinValue = sin(n);
-  printf("\n The Sine value of %lf = %f ", n, sinValue);
-}
+    double x;
+    double result;
 
+    x = 3;
+    result = sin(x);
+    printf("sin(%.2lf) = %.2lf\n", x, result);
+
+    x = 31;
+    result = sin(x);
+    printf("sin(%.2lf) = %.2lf\n", x, result);
+
+
+    return 0;
+}
 
