@@ -3,11 +3,14 @@
 #include "squareroot.h"
 void squareroot()
 {
+    float num, result;
+    printf("Enter root value:");
    
-    double num, result;
-    printf("Enter root value");
-    scanf("%lf",&num);
-    result = sqrt(num);
-    printf("squreroot %lf = %.2f",num, result);
-
+   while (scanf("%f",&num)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+} 
+   result = sqrt(num);
+    printf("squreroot %f = %.2f",num, result);
 }
