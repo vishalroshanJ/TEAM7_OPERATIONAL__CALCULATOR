@@ -1,19 +1,16 @@
 #include <stdio.h>
 #include <math.h>
-#include "cos.h"
-void cos()
-  
+#define PI 3.141592654
+
+int main()
 {
-  double  n,val,cosvalue;
+   double arg = 30, result;
 
-  printf("Enter the Value to calculate cos :  ");
-  
-  scanf("%lf", &n);
-  
-  val = 3.14 / 180.0;
-  cosvalue = cos( n*val );
-  
-  printf("\n The cos value of %lf = %f ", n, cosvalue);
- 
+   // Converting to radian
+   arg = (arg * PI) / 180;
+   result = cos(arg);
+
+   printf("cos of %.2lf radian = %.2lf", arg, result);
+
+   return 0;
 }
-
