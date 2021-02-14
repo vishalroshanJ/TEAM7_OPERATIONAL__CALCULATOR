@@ -4,9 +4,15 @@
 
 void sin()
 {
-  double sinValue, n;
-  printf("Enter the Value to calculate Sine :  ");
-  scanf("%lf", &n);
-  sinValue = sin(n);
-  printf("\n The Sine value of %lf = %f ", n, sinValue);
+  float n;
+       printf("Enter the Value in Degrees:");
+       while (scanf("%f",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
+       float result=(3.141592*n)/180;
+       float sin_value = sin(result);
+      
+       printf("%.2f",sin_value);     
 }
