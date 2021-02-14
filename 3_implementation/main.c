@@ -3,14 +3,15 @@
 #include <math.h>
 
 #include "addition.h"
-#include "cos.h"
+
+#include "cosin.h"
 #include "division.h"
-#include "log_Funtion.h"
+#include "logFunction.h"
 #include "multiplication.h"
-#include "sin.h"
+#include "sinin.h"
 #include "subtraction.h"
-#include "square_Root"
-#include "tan.h"
+#include "sqrtin.h"
+#include "tanin.h"
 #include "xy.h"
 #include "ceilval.h"
 #include "floorval.h"
@@ -18,13 +19,13 @@
 
 
 void addition();
-void cos();
+void cosin();
 void division();
-void log_Funtion();
+void logFunction();
 void multiplication();
-void sin();
-void square_Root();
-void tan();
+void sinin();
+void sqrtin();
+void tanin();
 void xy();
 void ceilval();
 void factorial();
@@ -33,7 +34,6 @@ void floorval();
 void cal()
 {
 	printf("\n             Welcome to C calculator \n\n");
-	calc_inst();
 	printf("Enter 1 for Addition \n");
 	printf("Enter 2 for Subtraction \n");
 	printf("Enter 3 for Divison\n");
@@ -52,48 +52,47 @@ void cal()
 
 int main(void)
 {
-	int X = 1;
 	int Calc_input;
-	char respo;
 	cal();
-	scanf("%d", &Calc_input;);
-	switch(Calc_input;)
+	scanf("%d",&Calc_input);
+	switch(Calc_input)
 	{
-		case '1':addition();
-				break;
-	        case '2': subtraction();
+		case 1:  addition();
+				   break;
+	   case 2:  subtraction();
+				   break;	
+		case 3: division();
+			break;	
+		case 4: multiplication();
 				break;	
-		case '3': division();
-				break;	
-		case '4': multiplication();
-				break;	
-		case '5': tan();
+		case 5: tanin();
 			        break;
-		case '6': sin();
+		case 6: sinin();
 			        break;
-		case '7': cos();
+		case 7: cosin();
 			       break;	
-		case '8': ceilval();
+		case 8: ceilval();
 		        	break;
-		case '9': log_Funtion();
+		case 9: logFunction();
 			       break;
-		case '10': Square_Root();
+		case 10: sqrtin();
 			       break;	
-		case '11': floorval();
+		case 11: floorval();
 			        break;	
-		case '12': factorial()
-				break;
-		case '13': xy();
+		case 12: factorial();
+				 break;
+		case 13: xy();
 				break;	
-		case '14': exit(0);
+		case 14: exit(0);
 				break;	
 		default : 
-		printf("\n**********You have entered unavailable option");
+		    printf("\n**********You have entered unavailable option");
     		printf("***********\n");
     		printf("\n*****Please Enter any one of below available ");
     		printf("options****\n");
-		cal();
+		    cal();
 
 	}
+	return 0;
 
 }
