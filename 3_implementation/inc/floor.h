@@ -1,10 +1,14 @@
 #include <stdio.h>
-
+#include "floorval.h"
 void floorval()
 {
 float n,result;
 printf("Enter the number:");
-scanf("%f",&n);
+while (scanf("%f",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
 result=floor(n);
-printf("floor of %f = %f \n",n,result);
+printf("floor of %.2f = %.2f \n",n,result);
 }
