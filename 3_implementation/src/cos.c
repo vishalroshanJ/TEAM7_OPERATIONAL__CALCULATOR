@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
-int main()
+#include "cos.h"
+void cos()
 {
        float n;
        printf("Enter the Value in Degrees:");
