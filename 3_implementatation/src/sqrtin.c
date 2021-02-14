@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include<math.h>
-#include "squareroot.h"
-void squareroot()
+#include "sqrtin.h"
+void sqrtin()
 {
     float num, result;
     printf("Enter root value:");
