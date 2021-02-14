@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include "tan.h"
-
-void tan()
+void tanin()
 {
        
        float n;
