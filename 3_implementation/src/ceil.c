@@ -4,7 +4,11 @@ void ceilval()
 {
 float n,result;
 printf("Enter the number:");
-scanf("%f",&n);
+while (scanf("%f",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
 result=ceil(n);
-printf("Ceil of %f = %f \n",n,result);
+printf("Ceil of %.2f = %.2f \n",n,result);
 }
