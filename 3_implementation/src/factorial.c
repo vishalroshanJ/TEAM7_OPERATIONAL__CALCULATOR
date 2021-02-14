@@ -4,7 +4,11 @@ void factorial()
 {
     int i,n,result=1;
 printf("Enter the number:");
-scanf("%d",&n);
+while (scanf("%d",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
     if (n>=1)
     {
         for(i=1;i<=n;i++)
