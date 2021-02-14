@@ -2,18 +2,30 @@
 #include "subtraction.h"
 void subtraction()
 {
-  int i;
-  float j=0;
-  printf("enter the number of elements to subtract: ");
-  int n;
-  scanf("%d",&n);
-  printf("please enter the numbers one by one: \n",n);
-  
- float a[n];
+  int i,n;
+float j=0;
+    printf("\nEnter the number of elements you want to subtract:");
+    while (scanf("%d",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
+    printf("Please enter %d numbers one by one: \n",n);
+    float a;
   for(i=0;i<n;i++)
   {
-     scanf("%f",&a[i]);
-      j=a[i]-j;
+      while (scanf("%f",&a)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
+if(i==0)
+{
+    j=a;
+}
+else
+      j=j-a;
   }
-  printf("difference of num= %.1f",j);
+    printf("Sum of numbers = %0.2f \n",j);
+    
 }
