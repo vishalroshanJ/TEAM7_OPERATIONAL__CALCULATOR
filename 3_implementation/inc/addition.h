@@ -1,15 +1,25 @@
 #include <stdio.h>
+#include "addition.h"
 void addition()
 {
-    int n, total=0, k=0, number;
+    int i,n;
+float j=0;
     printf("\nEnter the number of elements you want to add:");
-    scanf("%d",&n);
+    while (scanf("%d",&n)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
     printf("Please enter %d numbers one by one: \n",n);
-    while(k<n)
-    { 
-        scanf("%d",&number);
-        total=total+number;
-        k=k+1;
-    }
-    printf("Sum of %d numbers = %d \n",n,total);
+    float a;
+  for(i=0;i<n;i++)
+  {
+      while (scanf("%f",&a)==0)
+{
+printf("Invalid input. Please Vaild Input: ");
+scanf("%*s");
+}
+      j=j+a;
+  }
+    printf("Sum of numbers = %0.2f \n",j);  
 }
