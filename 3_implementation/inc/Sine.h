@@ -1,6 +1,12 @@
-#ifndef sin_h
-#define sin_h
+#include <stdio.h>
+#include <math.h>
+#include "sin.h"
 
-void sin();
-
-#endif
+void sin()
+{
+  double sinValue, n;
+  printf("Enter the Value to calculate Sine :  ");
+  scanf("%lf", &n);
+  sinValue = sin(n);
+  printf("\n The Sine value of %lf = %f ", n, sinValue);
+}
