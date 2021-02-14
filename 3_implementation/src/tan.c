@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <math.h>
-int main()
+#include "tan.h"
+
+void tan()
 {
        float n;
        printf("Enter the Value in Degrees:");
