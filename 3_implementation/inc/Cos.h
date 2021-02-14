@@ -2,7 +2,7 @@
 #include <math.h>
 #define PI 3.141592654
 
-int main()
+void cosin()
 {
    double arg = 30, result;
 
