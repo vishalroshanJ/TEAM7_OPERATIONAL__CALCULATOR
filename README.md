@@ -5,7 +5,27 @@
 
 [![Code Quality Score](https://www.code-inspector.com/project/19103/score/svg)](https://frontend.code-inspector.com/public/project/19103/TEAM7_OPERATIONAL__CALCULATOR/dashboard)
 [![Code Grade](https://www.code-inspector.com/project/19103/status/svg)](https://frontend.code-inspector.com/public/project/19103/TEAM7_OPERATIONAL__CALCULATOR/dashboard)
-                                                                         
+
+
+
+
+## Folder Structure
+Folder             | Description
+-------------------| -----------------------------------------
+`Requirement`      | Documents detailing requirements and research
+`Design`           | Documents specifying design details
+`Implement`        | All code and documentation
+`.github`          | Workflows 
+                                            
+## Contributors List
+
+Name                              |   PS No.  |    Features                               |       
+--------------------------------- |-----------|-------------------------------------------|
+`1) Vishal Roshan J`              | 99003697  | Integration part of files,Unity Test Cases|    
+`2) Tejawsi G     `               | 99003693  | Feasibility Study,Code Contribution       |  
+`3) Aditya  choudhary`            | 99003695  | Requirement Research,Code Contribution    |        
+`4) Ganeshsairamareddy nallamilli '| 99003700  | UML,Requirements,Code Contribution        | 
+`5) Kesireddy Rohini`             | 99003702  | SWOT,Test Plan,Code Contribution          |                                            
                                                      
                                                                          
                                                                          
@@ -86,6 +106,7 @@ Should contain minimum capacity to perform operations.
 ![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/1_Requirements/SWOT.PNG)
 
                                Test Plan
-![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/4_Testplan/Positive%20test%20cases.PNG) 
+![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/4_Testplan/Positive%20test%20cases.PNG)  
+
 ![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/4_Testplan/negative%20test%20cases.PNG)
 
