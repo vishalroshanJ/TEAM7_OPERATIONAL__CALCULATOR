@@ -24,7 +24,7 @@ Name                              |   PS No.  |    Features                     
 `1) Vishal Roshan J`              | 99003697  | Integration part of files,Unity Test Cases|    
 `2) Tejawsi G     `               | 99003693  | Feasibility Study,Code Contribution       |  
 `3) Aditya  choudhary`            | 99003695  | Requirement Research,Code Contribution    |        
-`4) Ganeshsairamareddy nallamilli '| 99003700  | UML,Requirements,Code Contribution        | 
+`4) Ganeshsairamareddy nallamilli`| 99003700  | UML,Requirements,Code Contribution        | 
 `5) Kesireddy Rohini`             | 99003702  | SWOT,Test Plan,Code Contribution          |                                            
                                                      
                                                                          
