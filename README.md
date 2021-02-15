@@ -97,4 +97,6 @@ Should contain minimum capacity to perform operations.
 ![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/1_Requirements/SWOT.PNG)
 
                                Test Plan
-![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/4_Testplan/Positive%20test%20cases.PNG)                   
+![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/4_Testplan/Positive%20test%20cases.PNG) 
+![Alt Text](https://github.com/vishalroshanJ/TEAM7_OPERATIONAL__CALCULATOR/blob/main/4_Testplan/negative%20test%20cases.PNG)
+
